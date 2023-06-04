@@ -30,8 +30,62 @@
             bindings = <
    &kp TAB  &kp Q         &kp W     &kp D      &kp F  &kp G      &kp Y  &kp U  &kp R     &kp L  &kp K  &kp BSPC
  &kp LCTRL  &kp A         &kp S     &kp E      &kp T  &kp V      &kp P  &kp N  &kp I     &kp O  &kp H   &kp RET
-&kp LSHIFT                &kp Z     &kp X      &kp C                    &kp M  &kp B     &kp J  &kp K     &kp L
+&kp LSHIFT                &kp Z     &kp X      &kp C                    &kp M  &kp B     &kp J  &mo 1     &kp L
                    &kp LEFT_ALT  &kp LWIN  &kp LCTRL  &kp Z  &kp SPACE  &kp C  &kp V  &kp RWIN
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME          &trans           &kp UP        &kp INS  &kp DEL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &kp END  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp PAGE_UP   &trans  &trans
+&trans          &trans  &trans  &trans                    &kp DOWN_ARROW           &trans  &kp PAGE_DOWN   &trans  &trans
+                &trans  &trans  &trans  &trans    &trans          &trans           &trans         &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&kp ESC           &kp           &kp               &kp           &kp           &kp  &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH           &kp  &kp
+    &kp  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp
+    &kp                         &kp  &kp SINGLE_QUOTE     &kp MINUS                                      &kp EQUAL          &kp COMMA        &kp DOT           &kp  &kp
+                                &kp               &kp           &kp           &kp            &kp               &kp                &kp            &kp
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
