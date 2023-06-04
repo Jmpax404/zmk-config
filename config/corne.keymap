@@ -37,28 +37,28 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME          &trans           &kp UP        &kp INS  &kp DEL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans   &kp END  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp PAGE_UP   &trans  &trans
-&trans          &trans  &trans  &trans                    &kp DOWN_ARROW           &trans  &kp PAGE_DOWN   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp HOME           &none           &kp UP        &kp INS  &kp DEL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans   &kp END  &kp LEFT_ARROW  &kp RIGHT_ARROW    &kp PAGE_UP    &none  &trans
+&trans          &trans  &trans  &trans                    &kp DOWN_ARROW            &none  &kp PAGE_DOWN   &trans  &trans
                 &trans  &trans  &trans  &trans    &trans          &trans           &trans         &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp ESC           &kp           &kp               &kp           &kp           &kp  &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH           &kp  &kp
-    &kp  &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp
-    &kp                         &kp  &kp SINGLE_QUOTE     &kp MINUS                                      &kp EQUAL          &kp COMMA        &kp DOT           &kp  &kp
-                                &kp               &kp           &kp           &kp            &kp               &kp                &kp            &kp
+&kp ESC         &none         &none         &none             &none     &kp N5     &kp N6  &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+ &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp MINUS  &kp EQUAL   &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9   &kp NUMBER_0  &trans
+ &trans                       &none         &none  &kp SINGLE_QUOTE                            &kp COMMA           &kp DOT          &kp SLASH         &trans  &trans
+                             &trans        &trans            &trans     &trans     &trans         &trans            &trans             &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &none   &none  &kp K_APPLICATION  &kp KP_MINUS   &none   &none  &trans
+&trans  &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &none   &none    &kp KP_NUMBER_0   &kp KP_PLUS   &kp A   &none  &trans
+&trans         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3                         &kp KP_DOT         &none   &none  &trans  &trans
+                        &trans           &trans           &trans  &trans  &trans             &trans        &trans  &trans
             >;
         };
 
