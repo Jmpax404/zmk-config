@@ -8,5 +8,3 @@ This is Jmpax40 config for the ZMK keymap editor
 # Keymap Preview
 
 ![Screenshot](screenshot.png)
-
-t
